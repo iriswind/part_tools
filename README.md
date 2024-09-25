@@ -3,8 +3,11 @@
 **Установка**
 Можно воспользоваться pgcodekeeper для получения diff и кода из репозитория
 `git clone https://github.com/iriswind/part_tools.git
+
 /PATH_TO_pgcodekeeper/pgcodekeeper-cli.sh  -t "jdbc:postgresql://host:port/database?user=username&password=PASS" public -s /PATH_TO_part_tools/part_tools &> diff.sql
+
 psql -h host -p port -d database -U username -f diff.sql
+
 `
 Актуальный sql-скрипт можно взять из релиза и также его запустить в удобном PostgreSQL-клиенте(psql, pgAdmin3, pgAdmin4, DBaeaver...)
 

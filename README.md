@@ -2,6 +2,7 @@
 
 **Установка**
 Можно воспользоваться pgcodekeeper для получения diff и кода из репозитория
+
 `git clone https://github.com/iriswind/part_tools.git`
 
 `/PATH_TO_pgcodekeeper/pgcodekeeper-cli.sh  -t "jdbc:postgresql://host:port/database?user=username&password=PASS" public -s /PATH_TO_part_tools/part_tools &> diff.sql`
